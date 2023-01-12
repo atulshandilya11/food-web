@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>complete responsive food website design</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <a href="#" class="logo"
+        ><i class="fas fa-utensils"></i>AtylaFood</a
+      >
+
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+
+        <a href="#popular">popular</a>
+
+        <a href="#review">review</a>
+        <a href="#user">user</a>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>
+          food made with
+          <i class="fa fa-heart"></i> in india
+        </h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Voluptas accusamus tempore temporibus rem amet laudantium
+          animi optio voluptatum. Natus obcaecati unde porro nostrum
+          ipsam itaque impedit incidunt rem quisquam eos!
+        </p>
+        <a href="#" class="btn">order now</a>
+      </div>
+
+      <div class="image">
+        <img src="images/home-img.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- popular section starts  -->
+
+    <section class="popular" id="popular">
+      <h1 class="heading">most <span>popular</span> foods</h1>
+      <div class="icons">
+        <i class="fa fa-square"></i>
+        <i class="fa fa-th-large"></i>
+        <i class="fa fa-th"></i>
+        <div class="filter-condition">
+          <span>Sort As a</span>
+          <select name="" id="select">
+            <option value="Default">Default</option>
+            <option value="LowToHigh">Low to high</option>
+            <option value="HighToLow">High to low</option>
+          </select>
+        </div>
+        <button class="btn" id="alphBtn">Sort By Title</button>
+      </div>
+
+      <div class="box-container" id="fullGrid">
+        <div class="box" data-price="">
+          <span class="price"> $26 </span>
+          <img src="images/p-1.jpg" alt="" />
+          <h3>burger</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box" data-price="">
+          <span class="price"> $29 </span>
+          <img src="images/p-2.jpg" alt="" />
+          <h3>cakes</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+
+          <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box" data-price="">
+          <span class="price"> $28 </span>
+          <img src="images/p-3.jpg" alt="" />
+          <h3>sweets</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box" data-price="">
+          <span class="price">$23 </span>
+          <img src="images/p-4.jpg" alt="" />
+          <h3>cupcakes</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box" data-price="">
+          <span class="price">$24 </span>
+          <img src="images/p-5.jpg" alt="" />
+          <h3>drinks</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">order now</a>
+        </div>
+        <div class="box" data-price="">
+          <span class="price"> $21 </span>
+          <img src="images/p-6.jpg" alt="" />
+          <h3>ice-cream</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <a href="#" class="btn">order now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- popular section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">our customers <span>reviews</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/pic1.jpg" alt="" />
+          <h3>john deo</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            I Just Order Tea And Cookies With Polonium From AtulyaFood
+            For Zelensky. Too Excited To Use!
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/pic2.jpg" alt="" />
+          <h3>Vladimir Putin</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            I just had a burger from this website. It's so great I'm
+            going to replace the word great with burger. "Make America
+            Burger Again!"
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/pic3.jpg" alt="" />
+          <h3>john deo</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>C'mon, man! I forgot this message</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- 12/01/2023 00:43AM -->
+    <!-- order section starts  -->
+
+    <section class="user" id="user">
+      <h1 class="heading"><span>Prime User</span></h1>
+
+      <div class="row">
+        <form action="#" id="form">
+          <div class="inputBox">
+            <input
+              type="text"
+              placeholder="name"
+              id="inpName"
+              required
+            />
+
+            <input
+              type="email"
+              placeholder="email"
+              id="inpEmail"
+              required
+            />
+
+            <input type="submit" class="btn" value="Register" />
+          </div>
+        </form>
+
+        <div>
+          <button class="btn" id="loadUser">PrimeUser</button>
+          <table id="table"></table>
+        </div>
+      </div>
+    </section>
+
+    <!-- order section ends -->
+
+    <!-- footer section  -->
+
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="btn">facebook</a>
+        <a href="#" class="btn">twitter</a>
+        <a href="#" class="btn">instagram</a>
+        <a href="#" class="btn">pinterest</a>
+        <a href="#" class="btn">linkedin</a>
+      </div>
+
+      <h1 class="credit">
+        created by
+        <span> Atulya </span>| No<i class="fa fa-copyright"></i>
+        copyright issues.
+      </h1>
+    </section>
+
+    <!-- scroll top button  -->
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+    <!-- loader  -->
+    <div class="loader-container">
+      <img src="images/loader.gif" alt="" />
+    </div>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
